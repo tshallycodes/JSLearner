@@ -1,0 +1,19 @@
+* Learned from Bro Code *
+
+- toFixed(2)is used for setting how many decimal points you want.
+
+document.querySelector() is for first element. and .querySelectorAll() is for all elements
+
+lets say fruits
+
+for class is querySelectorAll(".fruits)
+for id is querySelectorAll("#fruits")
+for tag is querySelectorAll("div")
+
+Array.from(".fruits).forEach(fruit => {
+    fruit.style.backgroundColor = yellow;
+})
+
+
+-  eventListener("event type eg click", function or callback)
+event.target.textContent, target is used to target the id that is using the eventListener
